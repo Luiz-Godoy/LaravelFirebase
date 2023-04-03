@@ -1,0 +1,70 @@
+body {
+    background: rgb(9, 46, 114)
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #00c8ff
+}
+
+.card{
+    border: none;
+}
+
+.container{
+    background-color: #fff;
+    max-width: 800px;
+    min-height: 650px;
+}
+
+input{
+    border: transparent;
+    background-color: transparent;
+    width: 150px;
+}
+.cardIT2{
+    margin-top: -23px;
+    background-color: transparent;
+}
+
+.profile-button {
+    background: rgb(141, 139, 139);
+    box-shadow: none;
+    color: #fff;
+    border: none;
+    width: 250px;
+}
+
+.profile-button2{
+    background: rgb(20, 136, 230);
+    box-shadow: none;
+    border: none;
+}
+
+.profile-button:hover {
+    background: #e72e2e
+}
+
+.profile-button:active{
+    background-color: #e72e2e;
+}
+
+.profile-button::selection{
+    background-color: #e72e2e;
+}
+.back:hover {
+    color: #682773;
+    cursor: pointer;
+}
+
+.labels {
+    font-size: 11px;
+    width: 300px;
+}
+
+.add-experience:hover {
+    background: #1567ff;
+    color: #fff;
+    cursor: pointer;
+    border: solid 1px #1567ff
+}
